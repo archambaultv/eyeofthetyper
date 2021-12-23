@@ -1,0 +1,72 @@
+baseURL = 'https://eyeofthetyper.ca/'
+languageCode = 'en-us'
+title = 'Eye of the typer'
+
+# Theme
+theme = "beautifulhugo"
+
+# Publishing under docs for github pages
+publishDir = "docs"
+
+# Colors
+pygmentsStyle = "trac"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+
+# Languages
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+[languages]
+  [languages.en]
+    weight = 10
+    languageName = 'English'
+    contentDir = 'content/en'
+    subtitle = "Computer science, books and anything else"
+    [languages.en.menu]
+    [[languages.en.menu.main]]
+          name = 'About'
+          url = '/page/about/'
+          weight = 1
+    [[menu.main]]
+    name = "Tags"
+    url = "tags"
+    weight = 3
+  [languages.fr]
+    weight = 20
+    languageName = 'Français'
+    contentDir = 'content/fr'
+    subtitle = "Informatique, livres et un peu de tout"
+    [languages.fr.menu]
+    [[languages.fr.menu.main]]
+          name = 'À propos'
+          url = '/page/about/'
+          weight = 1
+
+# Information about myself
+[Author]
+  name = "Vincent Archambault"
+  email = "vincentarchambault@icloud.com"
+  github = "archambaultv"
+  twitter = "eyeofthetyper"
+  reddit = "archambaultv"
+  linkedin = "archambaultv"
+
+# Default Params
+[Params]
+#  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
+  mainSections = ["post","posts"]
+  logo = "img/portrait.jpeg" # Expecting square dimensions
+  # favicon = "img/favicon.ico"
+  dateFormat = "January 2, 2006"
+  commit = false
+  rss = true
+  comments = false
+  readingTime = true
+  wordCount = true
+  useHLJS = true
+  socialShare = true
+  delayDisqus = false
+  showRelatedPosts = true
+  hideAuthor = true
+  since = 2021
