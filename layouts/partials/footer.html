@@ -29,7 +29,7 @@
           </li>
           {{ end }}
         </ul>
-        <p class="credits copyright text-muted">
+        <p class="credits text-center text-muted">
           {{ if .Site.Author.name }}
             {{ if .Site.Author.website }}
               <a href="{{ .Site.Author.website }}">{{ .Site.Author.name }}</a>
@@ -40,12 +40,11 @@
           
           {{ if .Site.Title }}
             &nbsp;&bull;&nbsp;
-            <a href="{{ "" | absLangURL }}">{{ .Site.Title }}</a>
+            <a href="{{ "" | absLangURL }}" >{{ .Site.Title }}</a>
           {{ end }}
-
-          &nbsp;&bull;&nbsp;
-          Unless noted otherwise the content of this website is dedicated to the public domain using
-          <a href="https://creativecommons.org/publicdomain/zero/1.0/" class="text-muted">
+          <br/>
+          {{ i18n "CC0" }}
+          <a href="https://creativecommons.org/publicdomain/zero/1.0/" >
             CC0 1.0
           </a>
         </p>

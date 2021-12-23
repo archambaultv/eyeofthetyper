@@ -34,6 +34,8 @@
 # Footer
 - id: poweredBy # Accepts HTML
   translation: 'Carbure avec <a href="https://gohugo.io">Hugo v{{ .Site.Hugo.Version }}</a>&nbsp;&bull;&nbsp; Avec le Theme <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> adapté de <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>'
+- id: CC0
+  translation: "Sauf mention contraire, le contenu de ce site web est dédié au domaine public via"
 
 # Navigation
 - id: toggleNavigation
