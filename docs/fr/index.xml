@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Eye of the typer</title>
+    <link>https://eyeofthetyper.ca/fr/</link>
+    <description>Recent content on Eye of the typer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>vincentarchambault@icloud.com (Vincent Archambault)</managingEditor>
+    <webMaster>vincentarchambault@icloud.com (Vincent Archambault)</webMaster>
+    <lastBuildDate>Wed, 22 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://eyeofthetyper.ca/fr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello World</title>
+      <link>https://eyeofthetyper.ca/fr/post/2021-12-22-hello-world/</link>
+      <pubDate>Wed, 22 Dec 2021 00:00:00 +0000</pubDate>
+      <author>vincentarchambault@icloud.com (Vincent Archambault)</author>
+      <guid>https://eyeofthetyper.ca/fr/post/2021-12-22-hello-world/</guid>
+      <description>Mon premier article de blog, principalement pour tester Hugo.</description>
+    </item>
+    
+    <item>
+      <title>À propos</title>
+      <link>https://eyeofthetyper.ca/fr/page/about/</link>
+      <pubDate>Wed, 22 Dec 2021 00:00:00 +0000</pubDate>
+      <author>vincentarchambault@icloud.com (Vincent Archambault)</author>
+      <guid>https://eyeofthetyper.ca/fr/page/about/</guid>
+      <description>Vincent Archambault Je suis étudiant au doctorat en informatique à l&#39;Université de Montréal. J&amp;rsquo;ai auparavant travaillé pour la banque française Société Générale et vécu 7 ans en France.
+J&amp;rsquo;aime bouger, voyager, méditer et passer du temps avec ma famille et mes amis. Je pratique entre autres choses la course, le taekwondo et le ski de fond.</description>
+    </item>
+    
+  </channel>
+</rss>
